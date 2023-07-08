@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <style>
+      .hero-section {
+        position: relative;
+        height: 100vh;
+      }
+
+      .hero-section::before {
+        content: "";
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        position: absolute;
+        background-size: cover;
+        background-repeat: no-repeat;
+        clip-path: circle(160vh at 50% -80vh);
+        background-position: 0px -40px;
+        /* filter: blur(4px); */
+        background-image: url("./assets/emiel-molenaar-j8DsBudk96c-unsplash.jpg");
+      }
+
+      .box-heading {
+        position: relative;
+      }
+
+      .box-heading::before {
+         content: "";
+         position: absolute;
+         top: -15px;
+         left: 15%;
+         width: 70%;
+         height: 30px;
+         border: 1.5px solid #747373;
+         border-bottom: none;
+        }
+
+        .box-heading::after {
+         content: "";
+         position: absolute;
+         bottom: -15px;
+         left: 15%;
+         width: 70%;
+         height: 20px;
+         border: 1.5px solid #747373;
+         border-top: none;
+        }
+
+
+    </style>
+  </head>
+  <body>
+    <div
+      class="
+        py-3
+        px-3
+        container-fluid
+        d-flex
+        justify-content-between
+        align-items-center
+      "
+      style=""
+    >
+    <div class="d-flex align-items-center" style="gap: 5px;">
+        <img src="./assets/logo.png" style="width: 30px;"/>
+        <span>BRAND NAME</span>
+    </div>
+    <div class="d-flex flex-wrap" style="gap: 20px;">
+        <span>2991, Asha Tower, Punjba</span>
+        <span>✆+9291001123</span>
+    </div>
+
+    </div>
+
+    <div class="hero-section container-fluid px-0">
+      <div
+        class="text-center text-light"
+        style="
+          position: absolute;
+          left: 50%;
+          top: 50%;
+          transform: translate(-50%, -100%);
+        "
+      >
+        <h3>POULTRY IN MUTION</h3>
+        <p>WE CARRY A FULL LINE OF POULTRY PRODUCTS</p>
+      </div>
+
+      <div style="position: absolute; left: 100px; bottom: 0px">
+        <img
+          src="./assets/03.png"
+          width="400px"
+        />
+      </div>
+
+      <div style="position: absolute; right: 100px; bottom: 30px">
+        <img src="./assets/01.png" width="400px" />
+      </div>
+    </div>
+
+    <div class="container mb-3 d-flex justify-content-center py-5">
+      <div class="text-center box-heading">
+        <p class="mb-1">TAKE A LOOK AT</p>
+        <h5>OUR PRODUCTS RANGE</h5>
+      </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 d-flex justify-content-center align-items-center">
+                <img src="./assets/kisspng-broiler-chicken-poultry-farming-cornish-game-hen-5af601bfa538f3.6314825815260717436768.png" class="w-100"/>
+            </div>
+            <div class="col-md-6">
+                <h3 class="mb-3">Welcome to Our Poultry And<br/>
+                    Egg Farm.</h3>
+
+                <p>Continually productize compelling quality for packed with Elated productize compelling quality for packed with all Elated ThemSetting up to website and creating pages.</p>
+
+                <p class="mb-2"><span class="text-success">✓</span> <span>We are providing different services</span></p>
+                <p class="mb-2"><span class="text-success">✓</span> <span>We are one of leading company</span></p>
+                <p class="mb-2"><span class="text-success">✓</span> <span>Profitability is the primary goal of all business</span></p>
+                <p class="mb-2"><span class="text-success">✓</span> <span>Learn how to grow your Business</span></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mb-3 mt-5 d-flex justify-content-center pt-5">
+        <div class="text-center box-heading">
+          <p class="mb-1">OUR STORY</p>
+          <h5>ABOUT MODESTO FOOD</h5>
+        </div>
+      </div>
+    <div class="container p-4">
+        <div class="text-center">
+            <img src="./assets/08.jpg" style="width: 200px;" class="rounded mb-3"/>
+            <h4>We have more True just great chicken</h4>
+            <p>Established in 1972 Modesto Food Distribution bcz la . author pountry supplies servicing the greater San Frascisco Day<br>
+                Area the focus in natural POLICE COOKENS lerg taxes relationships that allow a " and MOR on natures</p>
+        </div>
+    </div>
+
+    <div class="container-fluid p-0 text-center d-flex align-items-center justify-content-center py-3" style="background-color: deeppink; color: white;">
+    <p class="mb-0">© 2020 Poultry Farm.All Rights Reserved By LabArtisan</p>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+      integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
